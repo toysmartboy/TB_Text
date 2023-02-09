@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>How to create Animated Website in HTML AND CSS TAG</title>
+	<meta charset="UTF-8"/>
+	<meta name="keyword" content="HTML, ANIMATION, CSS"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="How to make Image Gallery using stylesheet.css" rel="stylesheet"/>
+</head>
+	<body>
+	
+	
+	
+	<div class="full-img" id="fullImgBox">
+		<img src="web one.jpg" alt="" id="fullImg"/>
+		<span onclick="closeFullImg()">X</span>
+	</div>
+		<div class="img-gallery">
+			<img src="web one.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web eit.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web three.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web four.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web five.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web six.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web sev.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web tew.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web te.jpg" alt="" onclick="closeFullImg(this.src)"/>
+			<img src="web niii.jpg" alt="" onclick="closeFullImg(this.src)"/>
+		</div
+		
+	<script>
+		var fullImgBox = document.getElementById("fullImgBox");
+		var fullImg = document.getElementById("fullImge");
+		
+			function openFullImg(){
+				fullImgBox.style.display = "flex";
+				fullImg.src = "pic";
+			}
+	</script>
+	
+	</body>
+</html>
