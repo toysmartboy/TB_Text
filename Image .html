@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Image Slide Show Gallery</title>
+	<meta charset="UTF-8"/>
+	<meta name="keyword" content="HTML, ANIMATION, CSS"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="Image.css" rel="stylesheet"/>
+</head>
+
+
+
+
+	<body>
+		<div class="full-img" id="fullImgBox">
+		<img src="web one.jpg" alt="" id="fullImg"/>
+		<span onclick="closeFullImg()">X</span>
+		</div>
+	
+		<div class="img-gallery">
+			<div class="hero">
+				<img src="web one.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web eit.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web three.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web four.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web five.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web six.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web sev.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web tew.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web te.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="web niii.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="download.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Best Logo Design Ideas - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Bro Paul Book Design - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Bro Paul Soap Design real - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Graphic Flower design - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="London 4K Graphics Design - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Pencil Design Logo By Toysmart Boy - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Alphabetical - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+				<img src="Alphabetical K - Copy.jpg" alt="" onclick="openFullImg(this.src)"/>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var fullImgBox = document.getElementById("fullImgBox");
+			var fullImg = document.getElementById("fullImg");
+		
+			function openFullImg(pic){
+				fullImgBox.style.display = "flex";
+				fullImg.src = pic;
+			}
+			function closeFullImg(){
+				fullImgBox.style.display = "none";
+			}
+		</script>
+	</body>
+</html>
+	
